@@ -164,7 +164,7 @@ private:
 };
 
 int main() {
-    MandelbrotApp app(1024, 980, 100, 'j'); // set name m -> mandelbrot
+    MandelbrotApp app(1024, 980, 100, 'm'); // set name m -> mandelbrot
                                                                        // set_name j -> julia
     app.run();
     return 0;
